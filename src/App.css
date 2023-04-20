@@ -1,9 +1,23 @@
 .App {
-  text-align: center;
+  text-align: left;
+}
+.para {
+  padding: 10px;
+  margin: 0 20%;
+}
+.para :nth-child(5) {
+  margin-bottom: 0;
+}
+.invitation-content {
+  text-indent: 7%;
+}
+.invitation-from {
+  text-transform: capitalize;
+  margin-top: 5px;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
